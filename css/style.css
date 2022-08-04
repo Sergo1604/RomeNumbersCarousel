@@ -1,0 +1,37 @@
+.body__title {
+  color: red;
+  font-size: 3em;
+  text-align: center;
+}
+
+.body__block {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.6) 0%, #e9dbdb 100%), url("../img/photo1.jpg") no-repeat;
+  width: 60%;
+  height: 550px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.body__block .block__link {
+  width: 20%;
+}
+.body__block .block__btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  width: 100%;
+}
+.body__block .block__inner {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.body__block .inner__text-roman {
+  color: red;
+  font-size: 3em;
+}
+.body__block .inner__text-decimal {
+  color: #00ff55;
+  font-size: 3em;
+}

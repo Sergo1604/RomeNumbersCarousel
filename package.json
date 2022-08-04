@@ -1,0 +1,22 @@
+{
+    "name": "romenumbers",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "dev": "webpack --mode development",
+        "build": "webpack --mode production"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.27.2",
+        "lodash": "^4.17.21"
+    },
+    "devDependencies": {
+        "eslint": "^6.0.0",
+        "webpack": "^5.74.0",
+        "webpack-cli": "^4.10.0"
+    }
+}
